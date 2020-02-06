@@ -55,7 +55,7 @@ article {
 }
 
 .lead-image {
-  grid-column:3 / 8;
+  grid-column:2 / 8;
   grid-row:1;
   padding: 1rem 0;
 border-color:grey;
