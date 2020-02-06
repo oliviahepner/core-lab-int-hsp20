@@ -70,6 +70,7 @@ justify-content: start;
 .subhead {
   padding: 0;
   margin:0;
+  color:gray;
 }
 
 .timestamp {
