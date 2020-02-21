@@ -98,11 +98,11 @@ font-s:;}
 }
 
 input:checked + .slider {
-  background-color: #F2B138;
+  background-color: black;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #F2B138;
+  box-shadow: 0 0 1px black;
 }
 
 input:checked + .slider:before {
