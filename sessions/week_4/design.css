@@ -121,19 +121,19 @@ input:checked + .slider:before {
 
 
   .color-gray {
-    background-color: #8D9AA6;
+    background-color: #eaebed;
   }
     .color-bright-yellow {
-    background-color: #F2BC1B;
+    background-color: #006989;
   }
     .color-medium-yellow {
-    background-color: #F2B138;
+    background-color: #a3bac3;
   }
     .color-medium-brown {
-    background-color: #A66312;
+    background-color: #01A7C2;
   }
     .color-deep-brown {
-    background-color: #736048;
+    background-color: #000000;
   }
 
 
