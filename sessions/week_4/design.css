@@ -119,3 +119,66 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+
+  .color-gray {
+    background-color: #8D9AA6;
+  }
+    .color-bright-yellow {
+    background-color: #F2BC1B;
+  }
+    .color-medium-yellow {
+    background-color: #F2B138;
+  }
+    .color-medium-brown {
+    background-color: #A66312;
+  }
+    .color-deep-brown {
+    background-color: #736048;
+  }
+
+
+.primary-hue {
+  display: flex;
+  padding:3rem 1rem;
+  color:#ffffff;
+  font-family: Montserrat;
+}
+
+.primary-hue > div {
+  width:33%;
+}
+
+.secondary-hue {
+  display: flex;
+  padding:1.5rem 1rem;
+  color:#ffffff;
+  font-family: Montserrat;
+}
+
+.secondary-hue > div {
+  width:33%;
+}
+
+.neutral-hue {
+  display: flex;
+  padding:1.5rem 1rem;
+  color:#ffffff;
+  font-family: Montserrat;
+}
+
+.neutral-hue > div {
+  width:33%;
+}
+
+.accent-hue {
+  display: flex;
+  padding:.5rem 1rem;
+  color:#ffffff;
+  font-family: Montserrat;
+}
+
+.accent-hue > div {
+  width:33%;
+}
+
+
