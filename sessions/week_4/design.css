@@ -225,6 +225,7 @@ input:checked + .slider:before {
 .dropdown:hover .dropbtn {
   background-color: #01a7c2;
 }
+
 .loader {
   border: 16px solid #ccc;
   border-radius: 50%;
@@ -235,3 +236,21 @@ input:checked + .slider:before {
   animation: spin 2s linear infinite;
   padding:2px;
 }
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+img {
+  width:100%;
+}
+
+
+
+
+
