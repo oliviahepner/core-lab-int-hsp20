@@ -223,5 +223,5 @@ input:checked + .slider:before {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #A66312;
+  background-color: #01a7c2;
 }
