@@ -125,7 +125,7 @@ input:checked + .slider:before {
     background-color: #eaebed;
   }
     .color-bright-yellow {
-    background-color: #006989;
+    background-color: black;
   }
     .color-medium-yellow {
     background-color:#01A7C2;
