@@ -225,3 +225,12 @@ input:checked + .slider:before {
 .dropdown:hover .dropbtn {
   background-color: #01a7c2;
 }
+.loader {
+  border: 16px solid #ccc;
+  border-radius: 50%;
+  border-top: 16px solid #F2B138;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
