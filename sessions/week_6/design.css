@@ -250,7 +250,26 @@ img {
   width:100%;
 }
 
+.column {
+  padding:;
+  float: left;
+  width: 50%;
+color:white;
+background-color:#006989;
 
+}
 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.image1{
 
+    width:400px; /* you can use % */
+    height: auto;
+margin-left:30px;
+
+}
+}
 
