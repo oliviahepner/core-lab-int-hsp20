@@ -2,15 +2,18 @@
 <html>
 <head>
 <title>New York State Voter Registration Form</title>
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,900,900i&display=swap" rel="stylesheet">
 <link href="nyc.css" rel="stylesheet" type="text/css"></head>
 <body>
 <h1>New York State Voter Registration Form</h1>
-
+<div class="wrapper">
+  
+	<div class="box1" >
 <h2>Register to vote</h2>
 
 <p>With this form, you register to vote in elections in New York State. You can also use this form to:
 
-change the name or address on your voter registration
+change the name or address on your voter registration<br>
 become a member of a political party
 change your party membership</p>
 
@@ -18,36 +21,36 @@ change your party membership</p>
 
 <p>be a US citizen;
 be 18 years old by the end of this year (you may pre-register at 16 or 17 but cannot vote until you are 18);
-not claim the right to vote elsewhere;
+not claim the right to vote else-<br>where;
 not be in prison or on parole for a felony conviction (unless parole pardoned or restored rights of citizenship);
 not found to be incompetent by a court.</p>
 
 <h3>Verifying your identity</h3>
 
-<p>We’ll try to check your identity before Election Day, through the DMV number (driver’s license number or non-driver ID number), or the last four digits of your social security number, which you’ll fill in below.
+<p>We will try to check your identity before Election Day, through the DMV number (drivers license number or nondriver ID number), or the last four digits <br>of your social security number, which you will fill in below.
 
-If you do not have a DMV or social security number, you may use a valid photo ID, a current utility bill, bank statement, paycheck, government check or some other government document that shows your name and address. You may include a copy of one of those types of ID when you mail this form.
+If you do not have a DMV or social security number, you may use a valid photo ID, a current utility bill, <br>bank statement, paycheck,<br> government check or some other government document that shows your name and address. You may include a copy of one of those types of ID when you mail<br> this form.
 
 If we are unable to verify your identity before Election Day, you will be asked for ID when you vote for the first time.</p>
 
 <h3>Send or deliver this form</h3>
 
-<p>Fill out the form below. Your information will be checked for any errors upon submission of this form, and you will be given an opportunity to correct any issues. Once complete, a PDF version of your voter registration form will be generated for display or download (depending on your system). Please note that you will need to sign and date your form before submitting it to your local board of elections by mail or in person.
+<p>Fill out the form below. Your information will be checked for any errors upon submission of this form, and you will be given an opportunity to correct any issues. <br>Once complete, a PDF version of your voter registration form will be generated for display or download (depending on your system). Please note that you will <br>need to sign and date your form before submitting<br> it to your local board of elections by mail or in person.
 <br>
 By signing the voter registration portion of the form, you will be attesting to the following information:
 <br>
 I am a citizen of the United States.
 I will have lived in the county, city or village for at least 30 days before the election.
-I meet all requirements to register to vote in New York State.
+I meet all requirements to register to vote in<br> New York State.
 This is my signature or mark in the box below.
-The above information is true, I understand that if it is not true, I can be convicted and fined up to $5,000 and/or jailed for up to four years.
+The above information is true, I understand that if it is not true, I can be convicted and fined up to $5,000<br> and/or jailed for up to four years.<br>
 If you also choose to complete and sign the organ donation portion of this form, you will be certifying that you are:
 <br>
 16 years of age or older;
 consenting to donate all of your organs and tissues for transplantation, research, or both;
-authorizing the Board of Elections to provide your name and identifying information to NYS Donate Life Registry for enrollment;
-and authorizing the Registry to allow access to this information to federally regulated organ procurement organizations and NYS-licensed tissue and eye banks and othes approved by the NYS Commissioner of Health upon your death.
-Once you have printed and signed your form, it must be submitted to your local board of elections. Address information for all county boards is contained within the PDF version of your completed voter registration form.
+authorizing the Board of Elections to provide your name<br> and identifying information to NYS Donate Life Registry for enrollment;
+and authorizing the Registry to allow access to this information to federally regulated organ procurement<br> organizations and NYS-licensed tissue and eye banks and othes approved by the NYS Commissioner of Health upon your death.<br>
+Once you have printed and signed your form, it must be submitted to your local board of elections. Address information for all county boards is contained within <br>the PDF version of your completed voter registration form.
 <br>
 Mail or deliver this form at least 25 days before the election you want to vote in. Your county will notify you that you are registered to vote.</p>
 
@@ -58,277 +61,615 @@ Mail or deliver this form at least 25 days before the election you want to vote 
 Find answers or tools on our website www.elections.ny.gov</p>
 
 <h2>It is a crime to procure a false registration or to furnish false information to the Board of Elections.</h2>
+</div>
 
-<h3>Qualifications</h3>
+<div class="box2">
+<h2>Qualifications</h2>
 1-Are you a citizen of the U.S.? * If you answer No, you cannot register to vote.
-
- Yes 
-
- No
+<label class="container">Yes
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">No
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
 
 
 2-A)Will you be 18 years of age or older on or before election day? * If you answer No, you cannot register to vote.
+<label class="container">Yes
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">No
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
 
- Yes 
 
- No
 2-B)Are you at least 16 years of age and understand that you must be 18 years of age on or before election day to vote, and that until you will be eighteen years of age at the time of such election your registration will be marked "pending" and you will be unable to cast a ballot in any election.
 
- Yes 
+<label class="container">Yes
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">No
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
 
- No
+<br>
 * If you answer No to both of the prior questions, you cannot register to vote.
+<br>
 
-
-
+<br>
 3-Your name *
 
-First name *
+<br>
+<br>
+<form>
+  <label for="fname">Your name<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
+
+
+
+<br>
+<form>
+  <label for="fname">First name<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
+
+ 
+<br>
+<form>
+  <label for="fname">Middle Initial<br>
+ </label>
+  <input type="text" id="fname" name="fname">
+</form>
+
+
+<br>
+<form>
+  <label for="fname">
+Last name<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
+
  
 
-Middle Initial
- 
-
-Last name *
- 
-
-Suffix
-
-
-
+<br>
+<form>
+  <label for="fname">Suffix<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
+<br>
 4-Date of Birth
-
+<br>
+<form>
+  <label for="fname">
 Birth Month *
  Two digit number representing the month you were born. 
-
+<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
+<br>
+<form>
+  <label for="fname">
 Birth Day *
  Two digit number representing the day you were born. 
 
+<br></label>
+  <input type="text" id="fname" name="fname">
+</form><br>
+<form>
+  <label for="fname">
 Birth Year *
  Four digit number representing the year you were born.
+<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
 
+
+<br><br>
 
 5-Gender (optional)
+<label class="container">Male
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Female
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Non-Binary
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Other
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
 
- Male 
 
- Female
 
 
 6-Telephone (optional)
-
+<br>
 Area Code
  Three digits only. 
-
+<form>
+  <label for="fname">
+Birth Year *
+ Four digit number representing the year you were born.
+<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
+<br>
 Prefix
  Three digits only. 
+<form>
+  <label for="fname">
+Birth Year *
+ Four digit number representing the year you were born.
+<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
+<br>
 
+<form>
+  <label for="fname">
 Line Number
  Four digits only.
-
+<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
+<br>
 
 7-Email (optional)
+<br>
+<form>
+  <label for="fname">
 
 Email Address
+<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
 
-
-
-8-The address where you live *
+<br>
+8-The address where you live 
+<form>
+  <label for="fname">
+*
 Address *
  Cannot be a PO Box. 
+<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
 
+<br>
+ <form>
+  <label for="fname">
 Apartment Number
- 
+<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
 
-City/Town/Village *
- 
+<br>
 
+ <form>
+  <label for="fname">
+City/Town/Village *<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
+
+<br>
+
+<form>
+  <label for="fname">
 Zip Code *
  Five digits only. 
+<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
 
+<br>
+<form>
+  <label for="fname">
 New York State County *
+<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
 
 
-
+<br>
 
 9-The address where you receive mail
 
 Skip if same as the address where you live as stated above. 
+<br>
+ <form>
+  <label for="fname">
 
 Address or P.O. Box
- 
+<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
+<br>
 
-Apartment Number
+
  
+<form>
+  <label for="fname">
+Apartment Number
+<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
+<br>
+ <form>
+  <label for="fname">
 
 City/Town/Village
- 
+<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
 
+<br>
+
+<form>
+  <label for="fname">
 Zip Code
  Five digits only.
-
+<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
+<br>
 
 Voting history
-
+<br>
 10-Have you voted before? 
-
-Yes, I have voted before. 
-
-No, I have not voted before. 
+<label class="container">Yes, I have voted before. 
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">No, I have not voted before. 
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
 
 11-What year?
- Please provide the year in which you last voted.
-
+ 
+<br>
+<form>
+  <label for="fname">Please provide the year in which you last voted.<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
 
 12-Voting information that has changed
 
 Skip if this has not changed or you have not voted before. 
 
-Your name was
  
+<br>
+<form>
+  <label for="fname">Your name was<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
 
-Your address was
- 
+ <br>
+<form>
+  <label for="fname">Your address was<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
 
-Your previous state or New York State County was
+=
+<br>
+<form>
+  <label for="fname">Your previous state or New York State County was<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
 
-
-
+<br>
 13-Identification *
 
 Please see the "Verifying your identity" section in the instructions at the beginning of this form for more information. 
 
 You must make 1 selection 
 
+
+
+  <label class="container">
  I will provide my New York State DMV number below 
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
 
+
+  <label class="container">
  I will provide the last four digits of my Social Security number below 
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
 
+
+  <label class="container">
  I do not have a New York State driver's license or a Social Security number. 
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
 
+<br>
+<form>
+  <label for="fname">
 New York State DMV number
- The nine digit ID number at the top of your license, permit or non-driver ID. 
+ The nine digit ID number at the top of your license, permit or non-driver ID. <br></label>
+  <input type="text" id="fname" name="fname">
+</form>
+
+<form>
+  <label for="fname">
 
 Last four digits of your Social Security number
  Four digits only.
+<br><br></label>
+  <input type="text" id="fname" name="fname">
+</form>
 
 
 14-Political party enrollment *
 
-To vote in a primary election, you must be enrolled in one of these listed parties — except the Independence Party, which permits non-enrolled voters to participate in certain primary elections. 
+To vote in a primary election, you must be enrolled in one of these listed parties, except the Independence Party, which permits non-enrolled voters to participate in certain primary elections. 
 
 You must make 1 selection 
 
- Democratic party 
 
- Republican party 
-
+  <label class="container">
+Democratic party
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+   <label class="container">
+ Republican party
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+ 
+   <label class="container">
  Conservative party 
-
- Working Families party 
-
- Green party 
-
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+    <label class="container">
+  Working Families party 
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+     <label class="container">
+ Green party  
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+ 
+     <label class="container">
  Libertarian party 
-
- Independence party 
-
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+ 
+     <label class="container">
+  Independence party 
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+  <label class="container">
  SAM party 
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+  <label class="container">
+Other
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
 
- Other 
 
  I do not want to enroll in any political party and wish to be an independent voter 
 
 If you selected "Other" above, please specify the other party name below. 
 
-Other Party Name:
-
-
+<br>
+<form>
+  <label for="fname">Other Party Name:</label>
+  <input type="text" id="fname" name="fname">
+</form>
 
 15-Optional questions
-
- I need to apply for an Absentee Ballot. 
-
+<label class="container"> I need to apply for an Absentee Ballot. 
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">
  I would like to be an Election Day worker.
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+
+
+
 
 
 <h2>(Optional) Register to donate your organs and tissues</h2>
 
-If you would like to be an organ and tissue donor upon your death, you may enroll in the NYS Donate Life™ Registry online at www.donatelife.ny.gov or provide your name and address below. You will receive a confirmation email or letter, which will also provide you an opportunity to limit your donation.
+If you would like to be an organ and tissue donor upon your death, you may enroll in the NYS Donate Life™ Registry online at www.donatelife.ny.gov or provide your name and address below. You will receive a confirmation email or letter, which will also provide you an opportunity to limit your donation.<br>
+<br>
+<form>
+  <label for="fname">Your name<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
 
-Your name
 
-First name
+
+<br>
+<form>
+  <label for="fname">First name<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
+
+ 
+<br>
+<form>
+  <label for="fname">Middle Initial<br>
+ </label>
+  <input type="text" id="fname" name="fname">
+</form>
+
+
+<br>
+<form>
+  <label for="fname">
+Last name<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
+
  
 
-Middle Initial
+<br>
+<form>
+  <label for="fname">Suffix<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
+
+
+<br>
+<form>
+  <label for="fname">
+Your address<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
+
+
+<br>
+<form>
+  <label for="fname">Address<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
+
  
+<br>
+<form>
+  <label for="fname">Apartment Number<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
 
-Last name
  
+<br>
+<form>
+  <label for="fname">City<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
 
-Suffix
 
-
-
-Your address
-
-Address
  
-
-Apartment Number
- 
-
-City
- 
-
+<br>
+<form>
+  <label for="fname">
 Zip Code
- Five digits only.
+ Five digits only.<br>
+</label>
+  <input type="text" id="fname" name="fname">
+</form>
+
+<br>
+<form>
+  <label for="fname">Date of Birth<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
 
 
-Date of Birth
 
-Birth Month
- Two digit number representing the month you were born. 
-
-Birth Day
- Two digit number representing the day you were born. 
-
-Birth Year
- Four digit number representing the year you were born.
+<br>
+<form>
+  <label for="fname">Birth Month
+ Two digit number representing the month you were born.<br> </label>
+  <input type="text" id="fname" name="fname">
+</form>
 
 
+<br>
+<form>
+  <label for="fname">Birth Day
+ Two digit number representing the day you were born. <br>
+</label>
+  <input type="text" id="fname" name="fname">
+</form>
+
+<br>
+<form>
+  <label for="fname">Birth Year
+ Four digit number representing the year you were born.<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
+<br>
 Gender
+<label class="container"> Male
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">
+Female
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
 
- Male 
-
- Female
 
 
-Eye color
 
-Please specify your eye color
-
-
+<br>
+<form>
+  <label for="fname">Eye Color: Please specify your eye color<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
+<br>
 
 Height information
 
 Please specify your height in feet and inches below. 
 
- Feet 
+<br>
+<form>
+  <label for="fname">Feet<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
 
- Inches
+<br>
+<form>
+  <label for="fname">Inches<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
 
+<br>
 
 Identification information
 
 
-Email Address
- 
 
-DMV or ID NYC#
+ <br>
+<form>
+  <label for="fname">Email Address<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
 
 
-Submit.
+
+<br>
+<form>
+  <label for="fname">DMV or ID NYC#<br></label>
+  <input type="text" id="fname" name="fname">
+</form>
+<br>
+
+<button class="button">Submit.</button>
+</div>
+</div>
 </body>
 </html>
