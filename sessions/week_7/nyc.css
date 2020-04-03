@@ -1,10 +1,13 @@
  html{
-	background-color: white;
+  background-color: #222222;
 	color:#201E4C;
 	font-family: 'Raleway', sans-serif;
 }
 h1{
 	margin-left:100px;
+  color:white;
+  font-family: 'Playfair Display', serif;
+  font-size:140px;
 }
 p{
 	font-size:17px;
@@ -23,11 +26,13 @@ p{
   grid-row-end: 3;
   z-index: 2;
   margin-left:110px;
-  border-radius: 25px;
-  background: #80c6ff;
+
+  background-color: white;
   padding: 20px; 
   width:1200px;
-  height: 1151px;
+  height: 1100px;
+border-style: solid;
+  border-color: red;
 }
 
 .box2 {
@@ -36,6 +41,11 @@ p{
   grid-row-end: 4;
   z-index: 1;
   margin-right:100px;
+  color:white;
+  font-size: 17px;
+ 
+  padding: 40px;
+  border-radius
 }
 
 /* Customize the label (the container) */
@@ -127,3 +137,29 @@ input {
   margin: 4px 2px;
   cursor: pointer;
 }
+.play{
+margin-top: -40px;
+  color:white;
+  font-family: 'Playfair Display', serif;
+  font-size:30px;
+}
+
+.play2{
+margin-top: -20px;
+  
+  font-family: 'Playfair Display', serif;
+  font-size:30px;
+}
+
+.border-button {
+  width: 700px;
+ height: 5690px;
+
+  border: solid 2px red;
+  transition: border-width 0.6s linear;
+  margin-right: 70px;
+  text-decoration: none;
+}
+
+.border-button:hover { border-width: 10px; }
+
