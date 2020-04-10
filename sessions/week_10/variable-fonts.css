@@ -1,8 +1,7 @@
 /* Load the variable font */
 @font-face {
-  font-family: 'Roboto VF';
-  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/57225/Roboto-VF.woff2') format('woff2-variations');
-  font-stretch: 75% 100%;
+font-family: 'Oswald', sans-serif;
+  
   font-style: oblique 0deg 12deg;
   font-weight: 100 900;
 }
